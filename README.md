@@ -34,6 +34,12 @@
       Weather Display
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <img src="./Images/QuizApp.png" width="200" alt="Quiz App"/><br/>
+      Quiz App
+    </td>
+  </tr>
 </table>
 
 
