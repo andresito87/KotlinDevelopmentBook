@@ -6,5 +6,5 @@ data class WeatherData(
     val condition: String,
     val humidity: String,
     val wind: String,
-    val pressure: String,
+    val pressure: String
 )

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_light"
-    android:padding="16dp"
-    android:id="@+id/main">
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/cityName"
+        style="@style/WeatherTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NewYork"
-        style="@style/WeatherTitle"
         android:padding="48dp"
+        android:text="NewYork"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,39 +30,49 @@
 
     <TextView
         android:id="@+id/temperature"
+        style="@style/WeatherInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="22°C"
         android:textSize="24sp"
-        style="@style/WeatherInfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/weatherIcon" />
 
     <TextView
         android:id="@+id/condition"
+        style="@style/WeatherInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Partly Cloudy"
         android:textSize="20sp"
-        style="@style/WeatherInfo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/temperature" />
 
     <TextView
         android:id="@+id/details"
+        style="@style/WeatherInfo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:gravity="center"
         android:text="Humidity: 65%\nWind: 10 km/h\nPressure: 1012 hPa"
         android:textSize="18sp"
-        style="@style/WeatherInfo"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/condition" />
+
+    <Button
+        android:id="@+id/btnChangeCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Change City"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/details" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
