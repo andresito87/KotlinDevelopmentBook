@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WeatherTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WeatherInfo">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Pon la barra de estado blanca -->
+        <item name="android:statusBarColor">@color/background_light</item>
+        <!-- Indica que quieres iconos oscuros -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
