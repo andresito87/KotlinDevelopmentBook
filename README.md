@@ -13,14 +13,35 @@
 - Push the boundaries with cross-platform Kotlin Multiplatform Mobile (KMM), advanced UI/UX, and AI-enhanced features
   
 # Images Apps
-![Kotlin Development: Complete Guide](./Images/app1.jpg)
-![Kotlin Development: Complete Guide](./Images/app2.jpg)
-![Kotlin Development: Complete Guide](./Images/app3.jpg)
-![Kotlin Development: Complete Guide](./Images/app4.jpg)
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./Images/numberGuessingApp.png" width="200" alt="Number Guessing App"/><br/>
+      Number Guessing
+    </td>
+    <td align="center">
+      <img src="./Images/todoListApp.png" width="200" alt="TodoList App"/><br/>
+      Todo List
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./Images/contactManagerApp.png" width="200" alt="Contact Manager App"/><br/>
+      Contact Manager
+    </td>
+    <td align="center">
+      <img src="./Images/weatherDisplayApp.png" width="200" alt="Weather Display App"/><br/>
+      Weather Display
+    </td>
+  </tr>
+</table>
+
 
 # Image Cover
 
-![Kotlin Development: Complete Guide](./Images/cover.jpg)
+<p align="center">
+  <img src="./Images/cover.jpg" alt="Kotlin Development: Complete Guide" width="300"/>
+</p>
 
 # Link to book
 
