@@ -11,10 +11,16 @@
 - Create monetizable, production-ready apps with features like in-app purchases, ads, and Play Store deployment
 
 - Push the boundaries with cross-platform Kotlin Multiplatform Mobile (KMM), advanced UI/UX, and AI-enhanced features
+  
+# Images Apps
+![Kotlin Development: Complete Guide](./Images/app1.jpg)
+![Kotlin Development: Complete Guide](./Images/app2.jpg)
+![Kotlin Development: Complete Guide](./Images/app3.jpg)
+![Kotlin Development: Complete Guide](./Images/app4.jpg)
 
 # Image Cover
 
-![Kotlin Development: Complete Guide](cover.jpg)
+![Kotlin Development: Complete Guide](./Images/cover.jpg)
 
 # Link to book
 
