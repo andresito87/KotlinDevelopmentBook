@@ -1,13 +1,8 @@
 package dev.andrescoder.weatherdsiplayapp
 
-import android.media.Image
-import android.os.Build
 import android.os.Bundle
-import android.view.View
-import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
