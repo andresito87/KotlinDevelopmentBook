@@ -7,11 +7,6 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 
-object CommentDiff : DiffUtil.ItemCallback<Comment>() {
-    override fun areItemsTheSame(old: Comment, new: Comment) = old.id == new.id
-    override fun areContentsTheSame(old: Comment, new: Comment) = old == new
-}
-
 class CommentsAdapter : ListAdapter<Comment, CommentsAdapter.VH>(CommentDiff) {
 
     init { setHasStableIds(true) }

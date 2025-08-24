@@ -2,7 +2,6 @@ package dev.andrescoder.socialfeedapp
 
 import androidx.recyclerview.widget.DiffUtil
 
-
 object PostDiff : DiffUtil.ItemCallback<Post>() {
     override fun areItemsTheSame(oldItem: Post, newItem: Post) = oldItem.id == newItem.id
     override fun areContentsTheSame(oldItem: Post, newItem: Post) = oldItem == newItem
