@@ -12,7 +12,7 @@
         android:layout_weight="1"
         android:ellipsize="end"
         android:maxLines="2"
-        android:text="Título: preview del contenido" />
+        android:text="Title: content preview" />
 
     <Button
         android:id="@+id/btnEdit"
@@ -20,5 +20,5 @@
         android:layout_height="wrap_content"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:text="Editar" />
+        android:text="Update" />
 </LinearLayout>
