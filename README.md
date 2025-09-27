@@ -48,17 +48,17 @@
     </td>
  <td align="center">
       <img src="./Images/ShoppingListApp.png" width="200" alt="Shopping List App"/><br/>
-      Quiz App
+      Shopping List App
     </td>
   </tr>
 <tr>
     <td align="center">
       <img src="./Images/SocialFeedApp.png" width="200" alt="Social Feed App"/><br/>
-      Quiz App
+      Social Feed App
     </td>
  <td align="center">
       <img src="./Images/NoteAddingApp.png" width="200" alt="Note Adding App"/><br/>
-      Quiz App
+      Note Adding App
     </td>
   </tr>
 </table>
